@@ -8,6 +8,7 @@ Extract KITTI imu and gnss data from raw data for ORB_SLAM3 evaluation. The imu 
 
 # !!Note!!
 I made some changes in pykitti to make sure the reference frame is the first frame from KITTI raw sync data.
+
 The origin version from `pykitti.utils`:
 ```python
 def load_oxts_packets_and_poses(oxts_files):
@@ -47,6 +48,7 @@ def load_oxts_packets_and_poses(oxts_files):
 
     return oxts
 ```
+
 The changed version:
 ```python
 def load_oxts_packets_and_poses(oxts_files):
