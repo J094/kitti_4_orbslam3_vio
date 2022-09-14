@@ -1,0 +1,10 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/bynav/gj/code/kalibr_workspace/devel/lib/python2.7/dist-packages",
+    "/opt/ros/melodic/lib/python2.7/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/bynav/gj/code/kalibr_workspace/devel/lib/python2.7/dist-packages",
+    "/opt/ros/melodic/lib/python2.7/dist-packages"
+  ]
+}
